@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin:0% ;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+header{
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.555);
+}
+.con{  
+    height: 100vh;
+    background: linear-gradient(123deg,rgb(117, 114, 119),rgb(0, 0, 0),rgb(121, 117, 117));
+}
+.form{
+   width: 100%;
+   height: 100vh;
+    display: flex;
+justify-content: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-container{
+   margin-block:auto;
+    padding: 20px;
+    width: 350px;
+    height: 450px;
+    border: 2px solid rgba(255, 243, 243, 0.616);
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+   
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 60px;
+}
+label,input{
+   margin-left: 20px;
+  
+}
+label{
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+input{
+    margin-bottom: 10px;
+    border: none;
+    border-style: groove;
+}
+input {
+    width: 250px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom:  2px solid black;
+  border-radius: 10px;
+}
+input::placeholder{
+    color: black;
+}
+
+input::placeholder:hover{
+    color: rgb(197, 27, 27);
+}
+.btn{
+    width: 100px;
+    font-size:large;
+   margin-inline: 100px;
+    border: 1px solid black;
+    padding-inline: 10px;
+    padding-block: 5px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+}
+.btn:focus{
+    border: 2px outset rgb(255, 255, 255);
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 14, 14);
+}
+input:hover::placeholder{
+color: transparent;
+}
